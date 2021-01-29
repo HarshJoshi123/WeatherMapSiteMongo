@@ -1,0 +1,57 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+  
+   
+  <title> Map Site </title></head>
+<style>
+  
+  #mapid{
+    height:80%;
+    
+  }
+  #map_data{
+    height:20%;
+    display:flex;
+    flex-direction:row;
+  }
+  .ls{
+    display:flex;
+    flex-direction:column;
+    flex-grow:1; 
+  }
+  </style>
+<body>
+
+
+
+<section class="collection" id="map_data">
+ <div class="ls collection-item" id="air_temperature"> 
+ 
+</div>
+<div class="ls collection-item" id="gust"> 
+  
+</div>
+<div class="ls collection-item" id="humidity"> 
+ 
+</div>
+<div class="ls collection-item" id="wave_direction"> 
+ 
+</div>
+<div class="ls collection-item"  id="wave_height"> 
+ 
+</div>
+</section> 
+<div id="mapid" > </div>
+<script src="script.js"> </script> 
+
+</body>
+</html> 
